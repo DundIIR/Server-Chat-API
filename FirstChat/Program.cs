@@ -23,7 +23,7 @@ namespace FirstChat
             {
                 opt.AddPolicy("reactApp", builder =>
                 {
-                    builder.WithOrigins("http://localhost:3000").AllowAnyHeader().AllowAnyMethod().AllowCredentials();
+                    builder.WithOrigins("https://localhost:9050").AllowAnyHeader().AllowAnyMethod().AllowCredentials();
                 });
             });
 
